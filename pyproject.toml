@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "invest-alert"
+version = "0.1.0"
+description = "Investment alert telegram bot"
+authors = ["Aleksander Moiseenko <alex.mois.developer@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "invest_alert" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
